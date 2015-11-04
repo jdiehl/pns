@@ -29,6 +29,12 @@ Create `pns.json`:
 }
 ```
 
+Configure your firewall to allow outgoing communication on port `2195`:
+
+```
+sudo ufw allow out 2195
+```
+
 # App Configuration
 
 1. Pick an identifier (e.g., `com.example.myapp`)

@@ -48,12 +48,12 @@ loadConfig(function (err, config) {
   var token = argv._[2];
   var message = { title: argv._[3], body: argv._[4] };
   if (argv._[5]) message.payload = JSON.parse(argv._[5]);
-  pns(config)(appId, platform, token, message, function (err, res) {
+  pns(config)(appId, platform, token, message, function (err) {
     if (err) {
       console.error(err);
       process.exit(-1);
     }
-    console.log('pns message sent', res);
+    console.log('pns message sent');
     process.exit();
   });
 

@@ -11,6 +11,10 @@
     "start": "node server.js"
   },
   "author": "Jonas Fortmann, Jonathan Diehl",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Inform-Software/pns.git"
+  },
   "license": "ISC",
   "dependencies": {
     "apn": "^1.7.5",
