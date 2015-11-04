@@ -1,6 +1,6 @@
 {
   "name": "pns",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Server handling push notifications for different mobile platforms\u001b[D\u001b[C",
   "main": "index.js",
   "bin": {
