@@ -1,0 +1,16 @@
+{
+  "port": 3005,
+  "apps": [
+    {
+      "appId": "com.example.myapp",
+      "gcm": {
+        "apiKey": "xxx...",
+        "senderID": "123..."
+      },
+      "apn": {
+        "cert": "path/to/cert.pem",
+        "key": "path/to/key.pem"
+      }
+    }
+  ]
+}

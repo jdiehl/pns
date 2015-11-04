@@ -1,9 +1,0 @@
-{ 
-  "server" : {
-    "port" : 3005
-  },
-
-  "android" : {
-    "apiKey" : "AIzaSyAtwh7-4zcSe-WKYi1UDMtdM-l3n4egQc"
-  }
-}

@@ -2,16 +2,21 @@
   "name": "pns",
   "version": "1.0.0",
   "description": "Server handling push notifications for different mobile platforms\u001b[D\u001b[C",
-  "main": "server.js",
+  "main": "index.js",
+  "bin": {
+    "pns": "index.js"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "start": "node server.js"
   },
   "author": "Jonas Fortmann, Jonathan Diehl",
   "license": "ISC",
   "dependencies": {
+    "apn": "^1.7.5",
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
+    "minimist": "^1.2.0",
     "node-gcm": "^0.12.0"
   },
   "devDependencies": {
