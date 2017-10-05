@@ -21,7 +21,7 @@
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "minimist": "^1.2.0",
-    "node-gcm": "^0.12.0"
+    "node-gcm": "^0.14.8"
   },
   "devDependencies": {
     "chai": "^3.4.0",
