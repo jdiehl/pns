@@ -1,7 +1,7 @@
 {
   "name": "pns",
   "version": "1.0.2",
-  "description": "Server handling push notifications for different mobile platforms\u001b[D\u001b[C",
+  "description": "Server handling push notifications for different mobile platforms",
   "main": "index.js",
   "bin": {
     "pns": "index.js"
@@ -10,22 +10,25 @@
     "test": "mocha",
     "start": "node server.js"
   },
-  "author": "Jonas Fortmann, Jonathan Diehl",
+  "authors": [
+    "Jonas Fortmann",
+    "Jonathan Diehl"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/Inform-Software/pns.git"
   },
   "license": "ISC",
   "dependencies": {
-    "apn": "^1.7.5",
+    "apn": "^2.2.0",
     "body-parser": "^1.14.1",
     "express": "^4.13.3",
     "minimist": "^1.2.0",
-    "node-gcm": "^0.12.0"
+    "node-gcm": "^0.14.9"
   },
   "devDependencies": {
-    "chai": "^3.4.0",
-    "mocha": "^2.3.3",
+    "chai": "^4.1.2",
+    "mocha": "^4.0.1",
     "request": "^2.65.0"
   }
 }
