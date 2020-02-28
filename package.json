@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Inform-Software/pns.git"
+    "url": "https://github.com/jdiehl/pns.git"
   },
   "license": "ISC",
   "dependencies": {
