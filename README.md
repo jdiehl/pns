@@ -1,5 +1,7 @@
 > Push Notification Server
 
+We have stopped working on this project. Consider using [pushd](https://github.com/rs/pushd) instead.
+
 Send push notifications via [Google Cloud Messaging](https://developers.google.com/cloud-messaging/) or the [Apple Push Notification Service](https://developer.apple.com/library/ios/documentation/NetworkingInternet/Conceptual/RemoteNotificationsPG/Chapters/ApplePushService.html)
 
 # Installation
